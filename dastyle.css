@@ -1,7 +1,7 @@
 * {
 	color: #e9f3e4;
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	/*border: 1px solid red;*/
+	/* border: 1px solid red; */
 }
 
 body {
@@ -71,12 +71,25 @@ font-weight: 700;
 	object-fit: cover;
 }
 
+.drawing-area {
+	background-color: #b4d7a7;
+	border: 10px solid #337050;
+}
+
+.square {
+    width: 255px;
+	height: 255px;
+
+	
+}	
+
 #context {
 	width: 70%;
 	position: relative;
 	left: 15%;
 	text-align: center;
 }
+
 
 #button-container {
 	display: flex;
